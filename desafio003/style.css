@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aquamarine;
+    justify-content: center;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #42E2B8, #087E8B);
+    padding: 10px;
+    margin: -9px;
+    text-align: center;
+
+}
+
+nav > a {
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 20px;
+    font-weight: bold;
+}
+nav > a:hover {
+    background-color: #F5BB00;
+}
+
+nav {
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 100;
+    font-size: small;
+    margin-left: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+
+h1 {
+    color: white;
+}
+
+
+#paragrafo {
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+    margin: 0px auto;
+}
+
+main {
+    background-color: aliceblue;
+    min-width: 320px;
+    max-width: 800px;
+    margin:9px auto;
+    padding: 1px 20px;
+    text-align: justify;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.225);
+
+}
+
+.titulo-main {
+    color: #087E8B;
+    padding: 15px 0px;
+    margin: 0px;
+    
+}
+
+main > h2 {
+    background-image: linear-gradient(to left, #42e2b700, #087E8B);
+    color: white;
+    padding: 5px;
+}
+
+p > a {
+    color: #087E8B;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+p > a:hover {
+    text-decoration: underline;
+    color: #F5BB00;
+}
+
+picture {
+    display: flex;
+    justify-content: center;
+}
+
+.irina {
+    display: flex;
+    justify-content: center;
+}
+
+.bugdroid {
+    display: flex;
+    justify-content: center;
+}
+
+#video {
+    background-color: #087E8B;
+    width: 800px;
+    height: 500px;
+    align-items: center;
+}
